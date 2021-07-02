@@ -7,7 +7,7 @@
 
   $comuna = $_POST["comuna"];
 
- 	$query = ";";
+ 	$query = "SELECT TR.rut, TR.nombre FROM Trabajadores as TR INNER JOIN Tiendas as T ON T.id_jefe = TR.id AND T.id = TR.Tid INNER JOIN Direcciones as D ON T.id = D.Tid WHERE D.comuna = @DATO_COMUNA";
 	$result = $db -> prepare($query);
 	$result -> execute();
 	$jefes = $result -> fetchAll();

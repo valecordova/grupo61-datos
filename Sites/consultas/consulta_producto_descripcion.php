@@ -9,7 +9,7 @@
   $descripcion = $_POST["descripcion"];
 
   #Se construye la consulta como un string
- 	$query = ";";
+ 	$query = "SELECT U.nombre FROM Usuarios AS U INNER JOIN Compra AS C ON C.uid = U.id INNER JOIN Productos AS P ON P.id = C.pid WHERE P.Descripcion = @DESCRIPCION";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);

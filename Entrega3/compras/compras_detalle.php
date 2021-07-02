@@ -128,7 +128,7 @@
 
 												  echo "<table class='table table-hover table-inverse'>";
 												  echo "<tr>";
-												  echo "<th></th>";
+												  echo "<th>Acción</th>";
 												  echo "<th>Producto</th>";
 												  echo "<th>Precio</th>";
 												  echo "<th>Descripcion</th>";
@@ -136,11 +136,9 @@
 												  echo "</tr>";
 
 												  while ($row1 = mysqli_fetch_assoc($result)){ 
-													  echo "<tr>";													  
-													  //data1 = '<a class="edit_employee tn btn-info btn-circle btn-sm" data-emp-id="' + $row1["id_producto"] + '" href="javascript:void(0)" title="Editar datos">'
-                    								  //data1 += '<span class="fas fa-edit" aria-hidden="true"></span></a>'
-													  echo "<td><a class='edit_employee tn btn-info btn-circle btn-sm' data-emp-id='"+ $row1["id_producto"] + "' href='javascript:void(0)' title='Editar datos'><span class='fas fa-edit' aria-hidden='true'></span></a></td>";	
-													  echo "<td>" . $row1["nombre"] . "</td>";	
+													  echo "<tr>";
+													  
+													  echo "<td><button type='button' class='fa fa-plus-circle btn-info' onclick='editarProducto(".$row1["id_producto"].");'; </td>";		  													  
 													  echo "<td>" . $row1["nombre"] . "</td>";	
 													  echo "<td>" . $row1["precio"] . "</td>";
 													  echo "<td>" . $row1["descripcion"] . "</td>";
@@ -179,6 +177,10 @@
   </div>
   <!-- End of Page Wrapper -->
 
+  <form id="ActionUpdate" name="ActionUpdate" action="../productos/productos_detalle.php" method="POST">
+    <input type="hidden" id="nID_PRODUCTO" name="nID_PRODUCTO">
+  </form>
+
   <!-- Scroll to Top Button-->
   <a class="scroll-to-top rounded" href="#page-top">
     <i class="fas fa-angle-up"></i>
@@ -210,8 +212,19 @@
 
 		$("#iconUpdates").html("<img src='images/ajax-loader_small.gif' />    ");		
 		$("#iconUpdates").hide();
+
+		$(document).on('click', '.edit_employee', function () {
+          var empid = $(this).attr('data-emp-id');          
+          $("#nID_PERSONA").val(empid)          
+          javascript:document.ActionUpdate.submit()
+        });
 		
 	});
+
+	function editarProducto(id){		
+		$("#nID_PRODUCTO").val(id)          
+        javascript:document.ActionUpdate.submit()
+	}
 
   </script>
  
