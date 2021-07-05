@@ -1,0 +1,291 @@
+1,25,valparaiso
+2,85,la serena
+3,48,la serena
+4,20,coquimbo
+5,81,providencia
+6,72,la serena
+7,97,coquimbo
+8,84,san joaquin
+9,33,arica
+10,30,coquimbo
+11,83,santiago
+12,7,valparaiso
+13,76,punta arenas
+14,50,arica
+15,67,la ligua
+16,57,arica
+17,19,san joaquin
+18,14,coquimbo
+19,72,la ligua
+20,59,valparaiso
+21,58,providencia
+22,22,buin
+23,27,santiago
+24,100,santiago
+25,99,la serena
+26,10,la ligua
+27,81,coquimbo
+28,94,valparaiso
+29,71,valparaiso
+30,24,punta arenas
+31,66,arica
+32,86,punta arenas
+33,32,coquimbo
+34,48,coquimbo
+35,101,valparaiso
+36,93,la ligua
+37,71,santiago
+38,47,santiago
+39,45,la serena
+40,69,santiago
+41,63,providencia
+42,88,buin
+43,45,coquimbo
+44,59,san joaquin
+45,101,san joaquin
+46,72,buin
+47,13,buin
+48,88,san joaquin
+49,79,coquimbo
+50,88,santiago
+51,69,la serena
+52,37,la ligua
+53,32,la serena
+54,91,buin
+55,23,valparaiso
+56,35,san joaquin
+57,9,valparaiso
+58,21,santiago
+59,62,buin
+60,79,valparaiso
+61,11,coquimbo
+62,52,valparaiso
+63,10,la serena
+64,4,valparaiso
+65,35,buin
+66,46,santiago
+67,65,arica
+68,62,la ligua
+69,31,arica
+70,74,buin
+71,28,la ligua
+72,16,la serena
+73,16,buin
+74,40,la ligua
+75,58,la ligua
+76,36,punta arenas
+77,23,buin
+78,100,valparaiso
+79,73,arica
+80,96,santiago
+81,2,buin
+82,45,buin
+83,6,santiago
+84,96,san joaquin
+85,1,la ligua
+86,91,santiago
+87,11,valparaiso
+88,59,coquimbo
+89,60,coquimbo
+90,2,la ligua
+91,45,la ligua
+92,90,santiago
+93,40,providencia
+94,74,coquimbo
+95,94,san joaquin
+96,32,buin
+97,70,punta arenas
+98,18,arica
+99,41,arica
+100,32,providencia
+101,23,providencia
+102,61,providencia
+103,63,buin
+104,43,arica
+105,72,providencia
+106,101,la serena
+107,19,la ligua
+108,5,la ligua
+109,78,la serena
+110,49,la serena
+111,84,valparaiso
+112,12,la serena
+113,11,buin
+114,58,valparaiso
+115,90,la ligua
+116,77,buin
+117,14,la ligua
+118,35,coquimbo
+119,68,providencia
+120,79,la serena
+121,61,buin
+122,53,arica
+123,95,la ligua
+124,9,providencia
+125,10,valparaiso
+126,15,providencia
+127,34,la ligua
+128,82,la ligua
+129,45,valparaiso
+130,62,la serena
+131,77,la ligua
+132,80,punta arenas
+133,97,la ligua
+134,95,la serena
+135,82,santiago
+136,77,valparaiso
+137,84,buin
+138,39,buin
+139,0,providencia
+140,82,providencia
+141,72,coquimbo
+142,11,la serena
+143,29,san joaquin
+144,52,la ligua
+145,74,santiago
+146,8,coquimbo
+147,21,coquimbo
+148,69,la ligua
+149,56,coquimbo
+150,75,valparaiso
+151,34,coquimbo
+152,14,providencia
+153,62,providencia
+154,84,coquimbo
+155,5,buin
+156,64,arica
+157,0,valparaiso
+158,40,la serena
+159,3,la serena
+160,17,coquimbo
+161,79,san joaquin
+162,28,san joaquin
+163,101,coquimbo
+164,67,coquimbo
+165,30,santiago
+166,35,valparaiso
+167,15,santiago
+168,27,providencia
+169,20,santiago
+170,96,la serena
+171,22,santiago
+172,77,coquimbo
+173,27,san joaquin
+174,83,la serena
+175,14,la serena
+176,15,san joaquin
+177,67,valparaiso
+178,15,coquimbo
+179,87,arica
+180,47,providencia
+181,38,santiago
+182,26,buin
+183,58,buin
+184,27,buin
+185,93,san joaquin
+186,89,arica
+187,60,la serena
+188,84,la serena
+189,0,santiago
+190,62,san joaquin
+191,4,providencia
+192,21,buin
+193,2,san joaquin
+194,35,santiago
+195,51,la ligua
+196,93,providencia
+197,25,san joaquin
+198,96,buin
+199,98,valparaiso
+200,55,punta arenas
+201,83,san joaquin
+202,69,valparaiso
+203,26,santiago
+204,26,san joaquin
+205,1,valparaiso
+206,38,valparaiso
+207,30,valparaiso
+208,85,valparaiso
+209,40,santiago
+210,13,valparaiso
+211,88,coquimbo
+212,63,coquimbo
+213,97,buin
+214,46,la serena
+215,101,buin
+216,92,la serena
+217,92,buin
+218,44,arica
+219,7,coquimbo
+220,12,buin
+221,78,santiago
+222,3,santiago
+223,0,la ligua
+224,22,providencia
+225,16,providencia
+226,13,la ligua
+227,17,la ligua
+228,74,providencia
+229,37,santiago
+230,74,san joaquin
+231,39,providencia
+232,85,coquimbo
+233,46,providencia
+234,38,coquimbo
+235,2,la serena
+236,10,santiago
+237,60,valparaiso
+238,96,coquimbo
+239,13,san joaquin
+240,49,providencia
+241,59,santiago
+242,8,la ligua
+243,91,san joaquin
+244,34,valparaiso
+245,98,la serena
+246,5,santiago
+247,68,coquimbo
+248,29,la ligua
+249,93,buin
+250,75,coquimbo
+251,6,providencia
+252,67,santiago
+253,4,la serena
+254,85,buin
+255,14,buin
+256,17,buin
+257,10,providencia
+258,99,santiago
+259,30,la ligua
+260,61,la serena
+261,52,san joaquin
+262,42,coquimbo
+263,81,santiago
+264,95,coquimbo
+265,4,santiago
+266,2,providencia
+267,16,la ligua
+268,54,coquimbo
+269,51,buin
+270,82,valparaiso
+271,54,san joaquin
+272,34,la serena
+273,90,valparaiso
+274,60,la ligua
+275,83,providencia
+276,42,santiago
+277,79,providencia
+278,29,coquimbo
+279,58,coquimbo
+280,95,san joaquin
+281,56,la ligua
+282,38,providencia
+283,5,providencia
+284,22,la serena
+285,83,buin
+286,34,providencia
+287,0,buin
+288,16,coquimbo
+289,61,santiago
+290,47,san joaquin
+291,9,santiago
